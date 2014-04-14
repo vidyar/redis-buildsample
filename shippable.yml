@@ -5,6 +5,7 @@ python:
  - "2.7"
 services: 
  - redis 
+ 
 install: pip install --use-mirrors -r requirements.txt
 script:
  - python sample.py
